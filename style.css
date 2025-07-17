@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myButton {
+    padding: 40px 80px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 12px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#myButton:hover {
+    background: #388e3c;
+}
